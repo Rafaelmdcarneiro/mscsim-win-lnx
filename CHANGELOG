@@ -1,0 +1,847 @@
+2021-06-19 Marek M. Cel <marekcel@marekcel.pl>
+    
+    * map GeoTIFF support
+
+
+
+2021-06-12 Marek M. Cel <marekcel@marekcel.pl>
+    
+    * better locale support
+
+
+
+2021-05-22 Marek M. Cel <marekcel@marekcel.pl>
+    
+    * ICAO Standard Atmosphere
+
+
+
+2021-01-23 Marek M. Cel <marekcel@marekcel.pl>
+    
+    * F-35A FLCS - preliminary version
+
+
+
+2021-01-16 Marek M. Cel <marekcel@marekcel.pl>
+    
+    * virtual destructors
+
+
+
+2021-01-02 Marek M. Cel <marekcel@marekcel.pl>
+    
+    * about dialog date update
+
+
+
+2021-01-01 Marek M. Cel <marekcel@marekcel.pl>
+    
+    * R44 FDM minor changes
+    
+    * version number increment
+    
+    * aerodynamic characteristics relative to angles expressed in degrees
+    
+    * F-35 landing gear aerodynamic characteristics
+    
+    * CMake files 
+
+
+
+2020-12-26 Marek M. Cel <marekcel@marekcel.pl>
+    
+    * about dialog
+
+
+
+2020-12-25 Marek M. Cel <marekcel@marekcel.pl>
+    
+    * XML reader functions rteferences changed to pointers
+    
+    * F-35 aerodynamics leading edge flaps characteristics
+
+
+
+2020-12-20 Marek M. Cel <marekcel@marekcel.pl>
+    
+    * unit tests
+
+
+
+2020-12-19 Marek M. Cel <marekcel@marekcel.pl>
+    
+    * automatic unit tests building and running scripts
+    
+    * main rotor model flapping coefficients formula
+
+
+
+2020-12-12 Marek M. Cel <marekcel@marekcel.pl>
+    
+    * unit tests
+    
+    * quaternion derivative with adjoin parameters constrain
+
+
+
+2020-12-05 Marek M. Cel <marekcel@marekcel.pl>
+
+    * comments
+    
+    * unit tests
+
+
+
+2020-11-21 Marek M. Cel <marekcel@marekcel.pl>
+
+    * FDM sys renamed ctrl
+    
+    * data relative path changed
+    
+    * Singleton, Log and Path classes put into sim module
+    
+    * airports lighths controls fix
+
+
+
+2020-11-15 Marek M. Cel <marekcel@marekcel.pl>
+
+    * landing gear static friction model fix
+
+
+
+2020-11-14 Marek M. Cel <marekcel@marekcel.pl>
+
+    * unit tests
+    
+    * comments
+    
+    * FDM refactorization
+
+
+
+2020-10-10 Marek M. Cel <marekcel@marekcel.pl>
+
+    * oscillations analysis class
+
+
+
+2020-10-03 Marek M. Cel <marekcel@marekcel.pl>
+
+    * unit tests
+    
+    * winch launcher model
+    
+    * input data as data referneces
+    
+    * wind
+
+
+
+2020-09-27 Marek M. Cel <marekcel@marekcel.pl>
+
+    * wing runners model
+    
+    * Geom class with intersections common functions
+    
+    * F-35 FDM
+
+
+
+2020-09-19 Marek M. Cel <marekcel@marekcel.pl>
+
+    * PW-5 FDM
+    
+    * CGI new airbrakes
+
+
+
+2020-09-05 Marek M. Cel <marekcel@marekcel.pl>
+
+    * cylinder head temperature
+    
+    * FDM wrapper
+    
+    * Matrix3x3 items referneces
+    
+    * input data as data referneces
+    
+    * static friction model fix
+    
+    * custom map container
+    
+    * FDM manager moved to the fdm directory
+    
+    * stabilizer base model separated into horizontal and vertical stabilizer models
+    
+    * main rotor default model based on momentum theory, blade element model as auxiliary
+
+
+
+2020-08-22 Marek M. Cel <marekcel@marekcel.pl>
+
+    * Table1 and Table2 renamed
+    
+    * afterburner flame
+    
+    * landmarks 3D objects
+
+
+
+2020-08-16 Marek M. Cel <marekcel@marekcel.pl>
+    
+    * intersections error fix
+
+
+
+2020-08-15 Marek M. Cel <marekcel@marekcel.pl>
+    
+    * data references restored
+    
+    * freezing position, attitude and velocity integration
+
+
+
+2020-08-09 Marek M. Cel <marekcel@marekcel.pl>
+    
+    * landing gear changes, external wheel model used
+    
+    * water reflections
+    
+    * HUD default color changed
+    
+    * static friction
+
+
+
+2020-08-01 Marek M. Cel <marekcel@marekcel.pl>
+    
+    * n-element dynamic allocated vector class
+    
+    * wheel model moved to its own class
+    
+    * variable size aircraft state vector
+    
+    * CGI entities
+
+
+
+2020-07-25 Marek M. Cel <marekcel@marekcel.pl>
+    
+    * AW101, F-35A and R44 FDM
+    
+    * gross weight calculations in GUI
+    
+    * intersections (ground reactions and collisions detection) fix
+    
+    * X/F and X/H FDM
+    
+    * test FDM removed
+    
+    * aircraft shadows
+
+
+
+2020-07-18 Marek M. Cel <marekcel@marekcel.pl>
+    
+    * CMake updated to building on Ubuntu 20.04 with OpenSceneGraph 3.6.4 and Qt 5.12.8
+    
+    * HUD fonts set due to memory leak
+    
+    * unit tests
+
+
+
+2020-07-12 Marek M. Cel <marekcel@marekcel.pl>
+    
+    * building on Ubuntu 20.04 with OpenSceneGraph 3.6.4 and Qt 5.12.8
+    
+    * splash screen
+
+
+
+2020-07-11 Marek M. Cel <marekcel@marekcel.pl>
+    
+    * OpenSceneGraph-Qt integration without using osgQt library
+
+
+
+2020-07-04 Marek M. Cel <marekcel@marekcel.pl>
+    
+    * time statistics
+    
+    * rotor blade renaming
+    
+    * screen saver inhibition
+    
+    * unit tests
+
+
+
+2020-06-21 Marek M. Cel <marekcel@marekcel.pl>
+    
+    * dpkg config files
+
+
+
+2020-06-20 Marek M. Cel <marekcel@marekcel.pl>
+    
+    * increased number of fuel tanks
+    
+    * C-130 fuel tanks
+    
+    * G1000 overspeed indication fix
+    
+    * axes tuning coefficients
+    
+    * dpkg making scripts
+
+
+
+2020-06-14 Marek M. Cel <marekcel@marekcel.pl>
+    
+    * replaying initialization fixed
+
+
+
+2020-05-24 Marek M. Cel <marekcel@marekcel.pl>
+    
+    * CMake fix for use selective Qt4 or Qt5
+    
+    * time step statistics
+    
+    * PID setting value fix
+
+
+
+2020-05-17 Marek M. Cel <marekcel@marekcel.pl>
+    
+    * units ID strings
+    
+    * building with MSVC 2019
+    
+    * CMake fix for MSVC 2019 and Qt 5
+
+
+
+2020-04-25 Marek M. Cel <marekcel@marekcel.pl>
+    
+    * OSG widgets refactorization
+
+
+
+2020-04-19 Marek M. Cel <marekcel@marekcel.pl>
+    
+    * Garmin G1000 refactorization
+
+
+
+2020-04-18 Marek M. Cel <marekcel@marekcel.pl>
+    
+    * Garmin G1000 display additional features
+    
+    * Garmin G1000 IFD simulation
+
+
+
+2020-04-12 Marek M. Cel <marekcel@marekcel.pl>
+    
+    * Garmin G1000 display additional features
+    
+    * Garmin G1000 avionics simulation infrastructure
+    
+    * more keys used as HID input
+    
+    * default input keys changed
+
+
+
+2020-04-05 Marek M. Cel <marekcel@marekcel.pl>
+    
+    * CMake files
+    
+    * WiX installer building scripts and input files
+    
+    * Qt Installer Framework buildings scripts and input files
+    
+    * dpkg input files
+
+
+
+2020-04-04 Marek M. Cel <marekcel@marekcel.pl>
+    
+    * Flaps notches
+    
+    * Garmin G1000 display
+    
+    * Cessna 172 Bendix/King KAP 140 and Garmin GFC 700 autopilot
+
+
+
+2020-03-07 Marek M. Cel <marekcel@marekcel.pl>
+    
+    * Qt Installer Framework config files and scripts
+    
+    * P-51 landing gear aerodynamics
+    
+    * C-130 landing gear and flaps aerodynamics
+    
+    * CMake files
+
+
+
+2020-03-01 Marek M. Cel <marekcel@marekcel.pl>
+
+    * C-130 and P-51 landing gear aerodynamics
+
+
+
+2020-02-29 Marek M. Cel <marekcel@marekcel.pl>
+
+    * CGI - vectors, rotor blur, blades datum and paths
+    
+    * SFX - first attempt
+    
+    * testing utilities
+    
+    * WiX files and scripts
+    
+    * horizontal stabilizer downwash as table
+
+
+
+2020-02-22 Marek M. Cel <marekcel@marekcel.pl>
+
+    * blade element method
+
+    * time measurement
+
+
+
+2020-02-16 Marek M. Cel <marekcel@marekcel.pl>
+
+    * blade element method
+
+
+
+2020-02-15 Marek M. Cel <marekcel@marekcel.pl>
+
+    * stabilizer type as constant
+    
+    * blade element method
+    
+    * rotor test
+
+
+
+2020-02-08 Marek M. Cel <marekcel@marekcel.pl>
+
+    * UH-60 model according to NASA-CR-166309
+    
+    * fuselage downwash according to NASA-TM-84281
+    
+    * minor changes
+    
+    * numerical integration unit tests
+    
+    * utils unit tests templates
+    
+    * UH-60 main rotor downwash
+
+
+
+2020-02-01 Marek M. Cel <marekcel@marekcel.pl>
+
+    * unit tests reorganisation
+    
+    * FDM manager moved to separate module
+    
+    * CMake fix
+
+
+
+2020-01-25 Marek M. Cel <marekcel@marekcel.pl>
+
+    * blade element method
+
+    * helicopter rotor blur
+
+    * helicopter rotor individual blades flapping
+    
+    * tests (rotor, EFIS)
+
+
+
+2020-01-18 Marek M. Cel <marekcel@marekcel.pl>
+
+    * blade element method
+    
+    * FDM main modules common interface added
+    
+    * minor changes
+
+
+
+2020-01-06 Marek M. Cel <marekcel@marekcel.pl>
+
+    * rotors models
+  
+    * copyright notice update
+    
+    * minor changes
+
+
+
+2019-12-15 Marek M. Cel <marekcel@marekcel.pl>
+
+    * rotors models
+  
+    * blade element theory
+
+
+
+2019-12-14 Marek M. Cel <marekcel@marekcel.pl>
+  
+    * blade element theory
+    
+    * temporary modified UH-60 model to evaluate blade element theory rotor model
+
+
+
+2019-12-08 Marek M. Cel <marekcel@marekcel.pl>
+  
+    * pressure units
+
+    * EADI maximum flap extension speed
+
+    * indicated airspeed
+    
+    * autopilot - ARM/ALT mode switch condition
+    
+    * deb package scripts
+    
+    * autopilot - refactorization
+
+
+
+2019-11-30 Marek M. Cel <marekcel@marekcel.pl>
+  
+    * layer clouds
+
+    * references in comments
+
+    * C-130
+
+    * CGI landing gear and flaps
+    
+    * camera offset due to pilot's eyes position
+
+
+
+2019-11-23 Marek M. Cel <marekcel@marekcel.pl>
+  
+    * version number correction
+
+    * autopilot and navigation
+
+
+
+2019-11-17 Marek M. Cel <marekcel@marekcel.pl>
+
+    * airports and navaids symbols
+    
+    * DAFIF format support
+    
+    * units converter consexpr specifiers
+
+
+
+2019-11-10 Marek M. Cel <marekcel@marekcel.pl>
+
+    * airports locations
+    
+    * autopilot
+
+
+
+2019-10-26 Marek M. Cel <marekcel@marekcel.pl>
+    
+    * EADI deviation bar fix
+    
+    * navigation
+    
+    * autopilot
+
+
+
+2019-10-13 Marek M. Cel <marekcel@marekcel.pl>
+    
+    * CGI module const parent
+    
+    * networking
+    
+    * Vne indication on PFD
+    
+    * autopilot
+
+
+
+2019-10-06 Marek M. Cel <marekcel@marekcel.pl>
+    
+    * locations on final
+    
+    * documentation
+
+
+
+2019-10-05 Marek M. Cel <marekcel@marekcel.pl>
+    
+    * data structures refactorization
+
+    * propullsion inputs recording
+
+    * Mach number fix
+
+    * MSVC fixes
+    
+    * autopilot
+    
+    * EFIS autopilot symbols
+
+
+
+2019-09-29 Marek M. Cel <marekcel@marekcel.pl>
+    
+    * documentation
+    
+    * locations
+
+
+
+2019-09-28 Marek M. Cel <marekcel@marekcel.pl>
+    
+    * piston engine modified
+    
+    * propeller induced velocity
+
+    * propeller governor
+
+    * compressor model removed
+
+    * Cessna 172 engine tuning
+
+    * P-51 engine and propeller tuning
+    
+    * dynamics freeze as state
+    
+    * recording and replaying
+    
+    * new macros
+    
+    * Table and Table2D deleting arrays fix
+
+    * overlay shadow
+
+
+
+2019-09-22 Marek M. Cel <marekcel@marekcel.pl>
+
+    * Cessna 172 propeller data according to NACA-TR-640 and NACA-TR-641
+    
+    * P-51 propeller data according to NACA-TR-640 and NACA-TR-641
+    
+    * time step fix
+    
+    * compressor model - first attempt
+    
+    * propeller governor - first attempt
+    
+    * dynamics freeze
+
+
+
+2019-09-21 Marek M. Cel <marekcel@marekcel.pl>
+    
+    * documentation
+
+
+
+2019-09-15 Marek M. Cel <marekcel@marekcel.pl>
+    
+    * aerodynamic coefficients approximation tool moved to its own repository
+    at:https://github.com/marek-cel/aero-coefficients-approximation
+
+
+
+2019-09-08 Marek M. Cel <marekcel@marekcel.pl>
+
+    * unit tests fixed
+    
+    * Cessna 172 and P-51 engine and propeller
+    
+    * documentation
+
+
+
+2019-09-01 Marek M. Cel <marekcel@marekcel.pl>
+
+    * member variables starts with underscore
+    
+    * F-16 Engine
+    
+    * UH-60 rotors and stabilizers
+    
+    * HUD velocity and altitude units setup
+    
+    * data file paths fix
+    
+    * landing gear tuning
+    
+    * convertin declination and right ascending into elevation and azimuth fix
+
+
+
+2019-08-25 Marek M. Cel <marekcel@marekcel.pl>
+
+    * nonlinear landing gear spring model
+
+
+
+2019-08-11 Marek M. Cel <marekcel@marekcel.pl>
+    
+    * P-51 Mustang CFD model
+    
+    * P-51 Mustang FDM
+    
+    * CGI landing gear handling changed
+
+
+    
+2019-08-04 Marek M. Cel <marekcel@marekcel.pl>
+    
+    * Map context menu panning issue fixed
+    
+    * convertion between geodetic and Mercator coordinates fix
+    
+    * Marble maps integration
+
+
+    
+2019-07-28 Marek M. Cel <marekcel@marekcel.pl>
+    
+    * Layer clouds
+    
+    * Skydome scaling fix
+    
+    * "Initial Conditions" and "Fuel and Payload" menu activities disabled
+      in phases other than idle
+    
+    * Camera manipulator minor changes
+    
+    * Map layers minor changes
+    
+    * Map traces
+    
+    * WGS-84 unit test
+    
+    * EOL fix
+    
+    
+
+2019-07-21 Marek M. Cel <marekcel@marekcel.pl>
+
+    * Logging to the file
+    
+    * Absolute data paths
+    
+    * Clouds
+    
+    * Map
+    
+    * Fullscreen mode
+
+
+
+2019-07-14 Marek M. Cel <marekcel@marekcel.pl>
+
+    * Unit tests fixed
+
+    * First-order lead class added with unit test
+    
+    * Logging class added
+    
+    * GUI menu checkable actions fix
+    
+    * some of GUI defines moved to global defines header
+
+
+
+2019-07-07 Marek M. Cel <marekcel@marekcel.pl>
+
+    * Cessna 172 and F-16 OpenFOAM case setup and run script
+    
+    * Cessna 172 vertical tail aerodynamic characteristics due to CFD results
+
+    * F-16 3D models for CFD
+    
+    * F-16 aerodynamic characteristics due to CFD results
+    
+    * F-16 mass data fixes
+    
+    * F-16 specific fuel consumption
+    
+    * FDM models moved to separate directory
+    
+    * Low-bypass ratio turbofan engine model class
+
+
+
+2019-06-23 Marek M. Cel <marekcel@marekcel.pl>
+    
+    * source code minor changes
+    
+    * F-16 3D models for CFD
+    
+    * F-16 OpenFOAM simulations case and run script
+
+
+
+2019-06-09 Marek M. Cel <marekcel@marekcel.pl>
+    
+    * HUD color and opacity setting added
+    
+    * variable masses names added
+    
+    * DockWidgetAuto added
+    
+    * keyboard controls roll, pitch and yaw channels modified
+    
+    * CGI landing gear modifies
+    
+    * on-ground initialization speed up fix
+    
+    * data references removed, static data structures used instead
+    
+    * CMake project files added
+
+
+
+2019-05-26 Marek M. Cel <marekcel@marekcel.pl>
+
+    * Cessna 172 3D models for CFD
+    
+    * Cessna 172 OpenFOAM simulations case and run script
+
+    * addition and multiplication operators added to fdm::Table class
+    
+    * Cessna 172 aerodynamic characteristics based on OpenFOAM simulations
+    
+    * F-16 renamed
+    
+    * cppcheck run script
+    
+    * unit tests added
+    
+    * Qt projects source and header files relative paths
+
+    * aerodynamic characteristics approximation tool added
